@@ -1,7 +1,7 @@
 <script lang="ts">
 	import CopyMe from './CopyMe.svelte';
 
-	let connectionString = 'postgres://postgres:postgres@localhost:5432/test';
+	let connectionString = 'postgres://user:password@localhost:5432/test';
 	let isValid = true;
 	let connectionProperties = {
 		user: '',
